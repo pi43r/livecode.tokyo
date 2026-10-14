@@ -1,0 +1,80 @@
+@import 'tailwindcss';
+@plugin '@tailwindcss/forms';
+@plugin '@tailwindcss/typography';
+
+@font-face {
+	font-family: 'DotGothic16';
+	src:
+		url('/font/DotGothic16-Regular.woff2') format('woff2'),
+		url('/font/DotGothic16-Regular.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+@theme {
+	--color-lct-blue: #0310b7;
+	--color-lct-green: #5dff3a;
+	--default-font-family: 'DotGothic16', monospace;
+}
+:root {
+	color: var(--color-lct-green);
+	background: var(--color-lct-blue);
+	font-synthesis: none;
+}
+body {
+	margin: 0;
+	padding: 0 clamp(1rem, 4vw, 4rem);
+}
+::selection {
+	color: var(--color-lct-blue);
+	background: var(--color-lct-green);
+}
+a {
+	color: inherit;
+	text-underline-offset: 0.25em;
+	text-decoration: underline;
+}
+a:hover,
+summary:hover {
+	color: var(--color-lct-blue);
+	background: var(--color-lct-green);
+}
+:focus-visible {
+	outline: 2px dashed var(--color-lct-green);
+	outline-offset: 6px;
+}
+.post-body {
+	max-width: 65ch;
+	min-width: 0;
+	overflow-wrap: anywhere;
+	font-size: 1.15rem;
+	line-height: 1.8;
+}
+.post-body > * + * {
+	margin-top: 1rem;
+}
+.post-body :is(h1, h2, h3) {
+	font-size: clamp(1.5rem, 3vw, 2.3rem);
+	line-height: 1.4;
+}
+.post-body ul {
+	list-style: square;
+	padding-left: 1.5rem;
+}
+.post-body ol {
+	list-style: decimal;
+	padding-left: 1.5rem;
+}
+.post-body blockquote {
+	border-left: 3px solid;
+	padding-left: 1rem;
+}
+.post-body pre {
+	overflow-x: auto;
+	border: 1px dashed;
+	padding: 1rem;
+}
+.post-body img {
+	max-width: 100%;
+	height: auto;
+}

@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="132 372 816 336" fill="#5DFF3A">
+  <title>Livecode Tokyo</title>
+  <style>
+    .pixels rect { animation: glitch var(--duration) steps(1, end) var(--delay) infinite; }
+    .pixels rect:nth-child(3n) { animation-direction: reverse; }
+    @keyframes glitch {
+      0%, 72%, 79%, 88%, 96%, 100% { transform: translate(0, 0); }
+      73%, 76% { transform: translate(24px, 0); }
+      75% { transform: translate(-24px, 0); }
+      89%, 92% { transform: translate(0, -24px); }
+      91%, 95% { transform: translate(0, 24px); }
+    }
+    @media (prefers-reduced-motion: reduce) { .pixels rect { animation: none; } }
+  </style>
+  <path fill="#0310B7" d="M132 372h816v336H132z"/>
+  <g class="pixels" shape-rendering="crispEdges">
+    <rect x="156" y="396" width="24" height="24" style="--delay:-0s;--duration:3s"/>
+    <rect x="684" y="396" width="24" height="24" style="--delay:-0.137s;--duration:3.43s"/>
+    <rect x="180" y="420" width="24" height="24" style="--delay:-0.274s;--duration:3.86s"/>
+    <rect x="204" y="420" width="24" height="24" style="--delay:-0.411s;--duration:4.29s"/>
+    <rect x="492" y="420" width="24" height="24" style="--delay:-0.548s;--duration:4.72s"/>
+    <rect x="516" y="420" width="24" height="24" style="--delay:-0.685s;--duration:5.15s"/>
+    <rect x="540" y="420" width="24" height="24" style="--delay:-0.822s;--duration:5.58s"/>
+    <rect x="564" y="420" width="24" height="24" style="--delay:-0.959s;--duration:6.01s"/>
+    <rect x="588" y="420" width="24" height="24" style="--delay:-1.096s;--duration:6.4399999999999995s"/>
+    <rect x="612" y="420" width="24" height="24" style="--delay:-1.233s;--duration:6.87s"/>
+    <rect x="708" y="420" width="24" height="24" style="--delay:-1.37s;--duration:3.3s"/>
+    <rect x="732" y="420" width="24" height="24" style="--delay:-1.507s;--duration:3.73s"/>
+    <rect x="756" y="420" width="24" height="24" style="--delay:-1.644s;--duration:4.16s"/>
+    <rect x="780" y="420" width="24" height="24" style="--delay:-1.781s;--duration:4.59s"/>
+    <rect x="828" y="420" width="24" height="24" style="--delay:-1.918s;--duration:5.02s"/>
+    <rect x="852" y="420" width="24" height="24" style="--delay:-2.055s;--duration:5.45s"/>
+    <rect x="876" y="420" width="24" height="24" style="--delay:-2.192s;--duration:5.88s"/>
+    <rect x="180" y="444" width="24" height="24" style="--delay:-2.329s;--duration:6.3100000000000005s"/>
+    <rect x="204" y="444" width="24" height="24" style="--delay:-2.466s;--duration:6.74s"/>
+    <rect x="468" y="444" width="24" height="24" style="--delay:-2.603s;--duration:3.17s"/>
+    <rect x="492" y="444" width="24" height="24" style="--delay:-2.74s;--duration:3.6s"/>
+    <rect x="516" y="444" width="24" height="24" style="--delay:-2.877s;--duration:4.03s"/>
+    <rect x="540" y="444" width="24" height="24" style="--delay:-3.014s;--duration:4.46s"/>
+    <rect x="564" y="444" width="24" height="24" style="--delay:-3.151s;--duration:4.89s"/>
+    <rect x="588" y="444" width="24" height="24" style="--delay:-3.288s;--duration:5.32s"/>
+    <rect x="612" y="444" width="24" height="24" style="--delay:-3.425s;--duration:5.75s"/>
+    <rect x="708" y="444" width="24" height="24" style="--delay:-3.562s;--duration:6.18s"/>
+    <rect x="732" y="444" width="24" height="24" style="--delay:-3.699s;--duration:6.609999999999999s"/>
+    <rect x="756" y="444" width="24" height="24" style="--delay:-3.836s;--duration:3.04s"/>
+    <rect x="780" y="444" width="24" height="24" style="--delay:-3.973s;--duration:3.4699999999999998s"/>
+    <rect x="804" y="444" width="24" height="24" style="--delay:-4.11s;--duration:3.9s"/>
+    <rect x="828" y="444" width="24" height="24" style="--delay:-4.247s;--duration:4.33s"/>
+    <rect x="852" y="444" width="24" height="24" style="--delay:-4.384s;--duration:4.76s"/>
+    <rect x="876" y="444" width="24" height="24" style="--delay:-4.521s;--duration:5.1899999999999995s"/>
+    <rect x="180" y="468" width="24" height="24" style="--delay:-4.658s;--duration:5.62s"/>
+    <rect x="204" y="468" width="24" height="24" style="--delay:-4.795s;--duration:6.05s"/>
+    <rect x="420" y="468" width="24" height="24" style="--delay:-4.932s;--duration:6.48s"/>
+    <rect x="444" y="468" width="24" height="24" style="--delay:-5.069s;--duration:6.91s"/>
+    <rect x="468" y="468" width="24" height="24" style="--delay:-5.206s;--duration:3.34s"/>
+    <rect x="780" y="468" width="24" height="24" style="--delay:-5.343s;--duration:3.77s"/>
+    <rect x="804" y="468" width="24" height="24" style="--delay:-5.48s;--duration:4.2s"/>
+    <rect x="180" y="492" width="24" height="24" style="--delay:-5.617s;--duration:4.63s"/>
+    <rect x="204" y="492" width="24" height="24" style="--delay:-5.754s;--duration:5.0600000000000005s"/>
+    <rect x="420" y="492" width="24" height="24" style="--delay:-5.891s;--duration:5.49s"/>
+    <rect x="444" y="492" width="24" height="24" style="--delay:-6.028s;--duration:5.92s"/>
+    <rect x="780" y="492" width="24" height="24" style="--delay:-6.165s;--duration:6.35s"/>
+    <rect x="804" y="492" width="24" height="24" style="--delay:-6.302s;--duration:6.779999999999999s"/>
+    <rect x="204" y="516" width="24" height="24" style="--delay:-6.439s;--duration:3.21s"/>
+    <rect x="228" y="516" width="24" height="24" style="--delay:-6.576s;--duration:3.64s"/>
+    <rect x="444" y="516" width="24" height="24" style="--delay:-6.713s;--duration:4.07s"/>
+    <rect x="468" y="516" width="24" height="24" style="--delay:-6.85s;--duration:4.5s"/>
+    <rect x="780" y="516" width="24" height="24" style="--delay:-6.987s;--duration:4.93s"/>
+    <rect x="804" y="516" width="24" height="24" style="--delay:-0.124s;--duration:5.359999999999999s"/>
+    <rect x="180" y="540" width="24" height="24" style="--delay:-0.261s;--duration:5.79s"/>
+    <rect x="204" y="540" width="24" height="24" style="--delay:-0.398s;--duration:6.220000000000001s"/>
+    <rect x="444" y="540" width="24" height="24" style="--delay:-0.535s;--duration:6.65s"/>
+    <rect x="468" y="540" width="24" height="24" style="--delay:-0.672s;--duration:3.08s"/>
+    <rect x="780" y="540" width="24" height="24" style="--delay:-0.809s;--duration:3.51s"/>
+    <rect x="804" y="540" width="24" height="24" style="--delay:-0.946s;--duration:3.94s"/>
+    <rect x="180" y="564" width="24" height="24" style="--delay:-1.083s;--duration:4.37s"/>
+    <rect x="204" y="564" width="24" height="24" style="--delay:-1.22s;--duration:4.8s"/>
+    <rect x="444" y="564" width="24" height="24" style="--delay:-1.357s;--duration:5.23s"/>
+    <rect x="468" y="564" width="24" height="24" style="--delay:-1.494s;--duration:5.66s"/>
+    <rect x="804" y="564" width="24" height="24" style="--delay:-1.631s;--duration:6.09s"/>
+    <rect x="828" y="564" width="24" height="24" style="--delay:-1.768s;--duration:6.52s"/>
+    <rect x="180" y="588" width="24" height="24" style="--delay:-1.905s;--duration:6.95s"/>
+    <rect x="204" y="588" width="24" height="24" style="--delay:-2.042s;--duration:3.38s"/>
+    <rect x="444" y="588" width="24" height="24" style="--delay:-2.179s;--duration:3.81s"/>
+    <rect x="468" y="588" width="24" height="24" style="--delay:-2.316s;--duration:4.24s"/>
+    <rect x="780" y="588" width="24" height="24" style="--delay:-2.453s;--duration:4.67s"/>
+    <rect x="804" y="588" width="24" height="24" style="--delay:-2.59s;--duration:5.1s"/>
+    <rect x="180" y="612" width="24" height="24" style="--delay:-2.727s;--duration:5.529999999999999s"/>
+    <rect x="204" y="612" width="24" height="24" style="--delay:-2.864s;--duration:5.96s"/>
+    <rect x="228" y="612" width="24" height="24" style="--delay:-3.001s;--duration:6.390000000000001s"/>
+    <rect x="252" y="612" width="24" height="24" style="--delay:-3.138s;--duration:6.82s"/>
+    <rect x="276" y="612" width="24" height="24" style="--delay:-3.275s;--duration:3.25s"/>
+    <rect x="324" y="612" width="24" height="24" style="--delay:-3.412s;--duration:3.68s"/>
+    <rect x="348" y="612" width="24" height="24" style="--delay:-3.549s;--duration:4.11s"/>
+    <rect x="468" y="612" width="24" height="24" style="--delay:-3.686s;--duration:4.54s"/>
+    <rect x="492" y="612" width="24" height="24" style="--delay:-3.823s;--duration:4.97s"/>
+    <rect x="516" y="612" width="24" height="24" style="--delay:-3.96s;--duration:5.4s"/>
+    <rect x="540" y="612" width="24" height="24" style="--delay:-4.097s;--duration:5.83s"/>
+    <rect x="564" y="612" width="24" height="24" style="--delay:-4.234s;--duration:6.26s"/>
+    <rect x="588" y="612" width="24" height="24" style="--delay:-4.371s;--duration:6.6899999999999995s"/>
+    <rect x="612" y="612" width="24" height="24" style="--delay:-4.508s;--duration:3.12s"/>
+    <rect x="780" y="612" width="24" height="24" style="--delay:-4.645s;--duration:3.55s"/>
+    <rect x="804" y="612" width="24" height="24" style="--delay:-4.782s;--duration:3.98s"/>
+    <rect x="180" y="636" width="24" height="24" style="--delay:-4.919s;--duration:4.41s"/>
+    <rect x="204" y="636" width="24" height="24" style="--delay:-5.056s;--duration:4.84s"/>
+    <rect x="228" y="636" width="24" height="24" style="--delay:-5.193s;--duration:5.27s"/>
+    <rect x="252" y="636" width="24" height="24" style="--delay:-5.33s;--duration:5.7s"/>
+    <rect x="276" y="636" width="24" height="24" style="--delay:-5.467s;--duration:6.13s"/>
+    <rect x="300" y="636" width="24" height="24" style="--delay:-5.604s;--duration:6.5600000000000005s"/>
+    <rect x="324" y="636" width="24" height="24" style="--delay:-5.741s;--duration:6.99s"/>
+    <rect x="348" y="636" width="24" height="24" style="--delay:-5.878s;--duration:3.42s"/>
+    <rect x="396" y="636" width="24" height="24" style="--delay:-6.015s;--duration:3.85s"/>
+    <rect x="492" y="636" width="24" height="24" style="--delay:-6.152s;--duration:4.28s"/>
+    <rect x="516" y="636" width="24" height="24" style="--delay:-6.289s;--duration:4.71s"/>
+    <rect x="540" y="636" width="24" height="24" style="--delay:-6.426s;--duration:5.140000000000001s"/>
+    <rect x="564" y="636" width="24" height="24" style="--delay:-6.563s;--duration:5.57s"/>
+    <rect x="588" y="636" width="24" height="24" style="--delay:-6.7s;--duration:6s"/>
+    <rect x="612" y="636" width="24" height="24" style="--delay:-6.837s;--duration:6.43s"/>
+    <rect x="780" y="636" width="24" height="24" style="--delay:-6.974s;--duration:6.859999999999999s"/>
+    <rect x="804" y="636" width="24" height="24" style="--delay:-0.111s;--duration:3.29s"/>
+    <rect x="228" y="660" width="24" height="24" style="--delay:-0.248s;--duration:3.7199999999999998s"/>
+    <rect x="252" y="660" width="24" height="24" style="--delay:-0.385s;--duration:4.15s"/>
+    <rect x="900" y="660" width="24" height="24" style="--delay:-0.522s;--duration:4.58s"/>
+  </g>
+</svg>
