@@ -76,7 +76,7 @@
 			A little home for live coding in Tokyo.<br />Laptops, experiments, and good company. Hello,
 			World!
 		</p>
-		<p class="mt-4 leading-relaxed">Organized by Ruiqi, Yifan, Matthias & Benjiemin</p>
+		<p class="mt-4 leading-relaxed">Organized by Ruiqi, Yifan, Matthias & Benjie.</p>
 	</details>
 	<div class="flex gap-2">
 		<a href="https://www.instagram.com/livecode.tokyo">instagram</a>
