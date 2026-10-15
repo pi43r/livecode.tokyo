@@ -56,7 +56,9 @@
 				aria-label={post.metadata.title}
 				class="grid scroll-mt-4 gap-6 border-b-2 border-solid pt-6 pb-10 sm:grid-cols-[minmax(10rem,1fr)_3fr] sm:gap-8 sm:pt-10 sm:pb-14"
 			>
-				<div class="code flex flex-wrap items-start justify-between gap-3 sm:flex-col sm:justify-start">
+				<div
+					class="code flex flex-wrap items-start justify-between gap-3 sm:flex-col sm:justify-start"
+				>
 					<time datetime={post.date}>{post.date.replaceAll('-', '/')}</time>
 					<a href={`#${post.slug}`}>{post.metadata.title} ↗</a>
 				</div>
@@ -74,7 +76,7 @@
 			A little home for live coding in Tokyo.<br />Laptops, experiments, and good company. Hello,
 			World!
 		</p>
-		<p class="mt-4 leading-relaxed">Organized by Ruiqi, Yifan & Matthias</p>
+		<p class="mt-4 leading-relaxed">Organized by Ruiqi, Yifan, Matthias & Benjiemin</p>
 	</details>
 	<div class="flex gap-2">
 		<a href="https://www.instagram.com/livecode.tokyo">instagram</a>
