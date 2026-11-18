@@ -10,8 +10,7 @@ date: 2026-11-25
 [@Neutone Office](https://maps.app.goo.gl/pUQUwzanSuLMBTYh9)
 Nakameguro 中目黒
 
-With special guests Eric Lee ([easterner](https://www.instagram.com/eggsovereager/)) & Erin Wajufos.
-Eric is one of the organizers of [livecode.nyc](https://livecode.nyc/) and will talk about live coding people as a choir.
-Erin shows us a breakdown of visuals set in Synesthesia with GLSL shaders.
+We’re excited to welcome two special guest speakers, Eric Lee ([easterner](https://www.instagram.com/eggsovereager/)) and [Erin Wajufos](https://www.instagram.com/erinwajufos/)!
+Eric will share his work on livecoding humans as part of a cyborg choir. Erin will take us behind the scenes with visuals made in Synesthesia using GLSL shaders. Both are active members of [livecode.nyc](https://livecode.nyc)
 
-Bring your laptop and jam with us :)
+Bring your laptop and see you there!
